@@ -16,7 +16,6 @@ import org.hibernate.criterion.Restrictions;
  * @author OCTI01
  */
 public class CidadeDAO extends GenericaDAO<Cidade> {
-
     public CidadeDAO() {
         super();
         criteria.addOrder(Order.asc("nome"));
